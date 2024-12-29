@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // You can add any Next.js configuration here
+  // If your app directory is in src, specify the source
+  sourcedir: 'src'
 }
 
 export default nextConfig
